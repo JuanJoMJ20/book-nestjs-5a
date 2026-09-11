@@ -1,8 +1,8 @@
 {
   "name": "book-nestjs-5a",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Book NestJS 5A project",
+  "author": "Juan Jose Muñoz Jurado",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

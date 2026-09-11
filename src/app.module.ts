@@ -2,8 +2,8 @@ import { Module } from '@nestjs/common';
 import { createObserveModule } from '@nestjs/observe';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { UserController } from './user/user.controller';
-import { ProductosController } from './productos/productos.controller';
+import { UsersController } from './users/users.controller';
+import { ProductsController } from './products/products.controller';
 
 export const { ObserveModule, ObserveInstrument } = createObserveModule();
 
@@ -17,7 +17,7 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
       serviceId: 'book-nestjs-5a',
     }),
   ],
-  controllers: [AppController, UserController, ProductosController],
+  controllers: [AppController, UsersController, ProductsController],
   providers: [AppService],
 })
 export class AppModule {}
